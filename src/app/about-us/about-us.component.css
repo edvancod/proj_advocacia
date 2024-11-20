@@ -1,20 +1,37 @@
 /* about-us.component.css */
 .about-us {
-    max-width: 800px;
+  width: 100%;
     margin: 0 auto;
     padding: 30px;
     text-align: center;
+    background-color: black;
+   
+   
   }
   
   .about-us h2 {
     font-size: 2rem;
-    color: #333;
+;
     margin-bottom: 20px;
   }
   
   .about-us p {
+    margin: 0 auto;
     font-size: 1.1rem;
-    color: #555;
+    width: 100%;
+    max-width: 800px;
+    padding: 30px;
     line-height: 1.6;
+    text-align: justify;
   }
-  
+  .foto_quem img{
+    width: 250px;
+    padding: 16px;
+    border: none;
+  }
+  figure img{
+    width: 100%;
+    max-width: 800px;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 0, 0, 0.509);
+  }

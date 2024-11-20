@@ -1,6 +1,9 @@
 /* carousel.component.css */
 .carousel {
+  background-color: aquamarine;
     width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
     overflow: hidden;
   }
   
@@ -11,6 +14,7 @@
   
   .carousel-slide img {
     width: 100%;
+    max-width: 900px;
     flex-shrink: 0;
   }
   

@@ -1,7 +1,9 @@
 /* header.component.css */
+
 .header {
+ 
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     align-items: center;
     padding: 15px 30px;
     background-color: #333;
@@ -20,7 +22,15 @@
     transition: color 0.3s;
   }
   
-  .nav-links a:hover {
-    color: #ffdd57;
-  }
   
+  .icon{
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .nav-links a:hover, 
+  .bi:hover {
+      color: #ffdd57;
+  }

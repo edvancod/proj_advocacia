@@ -1,0 +1,20 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(45, 45, 45);
+}
+.adress{
+    padding:16px;
+    margin-right: 50px;
+    
+}
+.adress p, h3{
+    text-align: left;
+}
+.map{
+    padding: 16px;
+}
+p{
+    padding: 16px;
+    text-align: center;
+}
